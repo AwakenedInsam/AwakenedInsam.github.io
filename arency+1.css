@@ -1,0 +1,166 @@
+*{
+    font-family: 'Montserrat', 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+
+.d-none{ display: none !important;}
+.h0 { height: 0 !important; overflow:  hidden !important;
+      padding: 0 !important; margin: 0 !important;
+}
+.navbar-inverse {
+    background-color: #ffffff;
+}
+
+
+#mainBanner{
+    background-image: url();
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto calc(100% - 10rem);
+    max-height:717px;
+    height: 0;
+    padding-top: 10%;
+    background-color: #ffffff;
+}
+
+aside.cta-quote {       
+    padding: 50px 0 80vw;
+}
+
+
+@media (min-width: 768px){
+    aside.cta-quote {       
+        padding: 100px 0;
+    }
+    .navbar-nav>li>a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+@media (min-width:992px){
+    aside.cta-quote {
+        padding: 200px 0;
+    }
+    #mainBanner{       
+        background-size: contain;
+        height:717px;        
+        padding-top:0;             
+    } 
+}
+
+
+
+
+
+.portfolio-carousel .owl-controls .owl-prev,
+.portfolio-carousel .owl-controls .owl-next {
+    text-align: center;
+    position: absolute;
+    height: 75px;
+    width: 50px;
+    border-radius: 0 !important;
+    line-height: 70px;
+    font-size: 30px !important;
+    margin: auto 0 !important;
+    top: 0;
+    bottom: 0;
+    background-color: #39393908 !important;
+    color: white !important;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  hr.colored {
+    border-color: #ffffff;}
+
+    .navbar-inverse .navbar-nav > li > a ,
+    .navbar-default .navbar-nav > li > a{
+      color: rgb(0, 0, 0);
+      font-weight: 600;
+    }
+
+
+    .owl-carousel .owl-wrapper-outer{
+        overflow:unset;
+        position: relative;
+        width: 100%;
+    }
+
+
+
+.btn-outline-light:hover,
+.btn-outline-light:focus {
+  color: #ffffff94;
+  background: rgba(0, 51, 27, 0.267);
+  outline: none;
+}
+
+.navbar-default .navbar-toggle,
+.navbar-inverse .navbar-toggle {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  padding: 6px 10px;
+}
+
+.img-circle{
+    width: 140px;
+    height: 140px;
+}
+
+
+.about-carousel .owl-controls .owl-prev,
+.about-carousel .owl-controls .owl-next {
+  text-align: center;
+  position: absolute;
+  height: 60px;
+  width: 40px;
+  border-radius: 0 !important;
+  line-height: 50px;
+  font-size: 30px !important;
+  margin: auto 0 !important;
+  top: 0;
+  bottom: 0;
+  background-color: #ffffff46 !important;
+  color: white !important;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.pricimg{
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-filter #filters li .filter.active {
+    background-color: #044601;
+    color: white;
+    border-color: #ffffff;
+  }
+
+  #portfoliolist .mix .portfolio-wrapper .caption .caption-bg {
+    background:#044601;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+h2{
+    color: #044601;
+}
+
+.btn-outline-dark {
+    margin: 3em;
+}
+.d-block{
+display: block;
+}
+
+.btn-full-width:hover {
+    background-color: #241205;
+    color: white;
+}
